@@ -1,0 +1,40 @@
+@keyframes increase-width {
+  0% {
+      max-width: 0px;
+  }
+  100% {
+      max-width: 500rem;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+    }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes translate-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translateX(0);
+  }
+}

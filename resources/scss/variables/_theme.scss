@@ -1,0 +1,9 @@
+@mixin defaultScheme {
+  // Colors
+  --ci-yellow: #ffc900;
+  --ci-yellow-light: #ffe100;
+}
+
+:root {
+  @include defaultScheme;
+}
